@@ -15,4 +15,16 @@ Three ways to access AWS:
 - Generated through management console.
 - Access Key ID equivalent to username
 - Secret Access Key equivalent to password
+##### Create Access Key
+- Create access key in AWS console
+- ```aws configure``` in aws-cli
+- provide Access Key ID & Secret Access Key
+##### IAM Roles for AWS Services
+- Roles are ways to give AWS service entities permissions, like users and groups
+
+##### IAM Security Tools
+1. Credentials Report (account-level)
+2. Access Advisor (account-level)
+
+
 
