@@ -24,7 +24,10 @@ Three ways to access AWS:
 
 ##### IAM Security Tools
 1. Credentials Report (account-level)
-2. Access Advisor (account-level)
+2. Access Advisor (user-level)
+
+##### AWS SDK
+SDKs, Mobile SDKs (iOS, Android), IoT Device SDKs (Embedded C, Arduino)
 
 
 
