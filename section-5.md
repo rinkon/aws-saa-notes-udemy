@@ -65,3 +65,12 @@ Always use IAM Roles for EC2 instances. Never assign IAM Access Key ID or Secret
 6. Dedicated Instance: dedicated hardware
 7. Dedicated Host: dedicated hardware but full machine rent
 8. Capacity Reservations: 
+
+##### Spot fleet
+Must cancel the spot instance, then terminate the spot request. if not, the spot request will create another spot instance.
+
+Strategies to allocate spot instances:
+1. lowestPrice
+2. diversified
+3. capacityOptimized
+4. priceCapacityOptimized
